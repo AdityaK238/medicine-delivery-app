@@ -1,0 +1,168 @@
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "price": 50,
+      "description": "Used to treat fever and mild pain",
+      "image": "/images/paracetamol.jpg",
+      "usage": "Relieves fever and mild pain.",
+      "dose": "500mg every 4-6 hours as needed.",
+      "sideEffects": "Nausea, rash, liver damage (if overdosed).",
+      "warnings": "Avoid alcohol, not suitable for liver disease patients."
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "price": 100,
+      "description": "Anti-inflammatory pain reliever",
+      "image": "/images/ibuprofen.jpg",
+      "usage": "Used for pain relief, inflammation, and fever reduction.",
+      "dose": "200-400mg every 6 hours as needed.",
+      "sideEffects": "Stomach pain, dizziness, kidney issues (if overdosed).",
+      "warnings": "Avoid long-term use, take with food to prevent stomach upset."
+    },
+    {
+      "id": 3,
+      "name": "Benadryl",
+      "price": 150,
+      "description": "Relieves cough and throat irritation",
+      "image": "/images/benadryl.jpg",
+      "usage": "Soothes throat irritation and reduces coughing.",
+      "dose": "10ml every 4-6 hours as needed.",
+      "sideEffects": "Drowsiness, dizziness, nausea.",
+      "warnings": "Do not exceed recommended dose, avoid alcohol."
+    },
+    {
+      "id": 4,
+      "name": "Amoxicillin",
+      "price": 200,
+      "description": "Antibiotic for bacterial infections",
+      "image": "/images/Amoxicillin.jpg",
+      "usage": "Treats bacterial infections like pneumonia and strep throat.",
+      "dose": "500mg every 8 hours for 7-10 days.",
+      "sideEffects": "Diarrhea, skin rash, nausea.",
+      "warnings": "Complete full course, do not use for viral infections."
+    },
+    {
+      "id": 5,
+      "name": "Cetirizine",
+      "price": 60,
+      "description": "Used for allergies and hay fever",
+      "image": "/images/cetirizine.jpg",
+      "usage": "Relieves allergy symptoms such as sneezing and itching.",
+      "dose": "10mg once daily.",
+      "sideEffects": "Drowsiness, dry mouth, headache.",
+      "warnings": "Avoid driving if drowsy, not for severe allergic reactions."
+    },
+    {
+      "id": 6,
+      "name": "Aspirin",
+      "price": 80,
+      "description": "Pain reliever and anti-inflammatory",
+      "image": "/images/aspirin.jpg",
+      "usage": "Reduces pain, fever, and inflammation.",
+      "dose": "325-650mg every 4-6 hours as needed.",
+      "sideEffects": "Stomach irritation, bleeding, dizziness.",
+      "warnings": "Avoid in children, take with food."
+    },
+    {
+      "id": 7,
+      "name": "Metformin",
+      "price": 120,
+      "description": "Used to manage diabetes",
+      "image": "/images/metformin.jpg",
+      "usage": "Controls blood sugar levels in type 2 diabetes.",
+      "dose": "500-1000mg twice daily with meals.",
+      "sideEffects": "Nausea, diarrhea, stomach upset.",
+      "warnings": "Monitor kidney function, take with food."
+    },
+    {
+      "id": 8,
+      "name": "Omeprazole",
+      "price": 130,
+      "description": "Reduces stomach acid, treats GERD",
+      "image": "/images/omeprazole.jpg",
+      "usage": "Treats acid reflux, ulcers, and heartburn.",
+      "dose": "20mg once daily before breakfast.",
+      "sideEffects": "Headache, nausea, stomach pain.",
+      "warnings": "Do not use long-term without medical advice."
+    },
+    {
+      "id": 9,
+      "name": "Losartan",
+      "price": 140,
+      "description": "Lowers high blood pressure",
+      "image": "/images/losartan.jpg",
+      "usage": "Manages high blood pressure and heart conditions.",
+      "dose": "50mg once daily.",
+      "sideEffects": "Dizziness, fatigue, increased potassium levels.",
+      "warnings": "Monitor blood pressure regularly, avoid potassium supplements."
+    },
+    {
+      "id": 10,
+      "name": "Azithromycin",
+      "price": 250,
+      "description": "Antibiotic for bacterial infections",
+      "image": "/images/azithromycin.jpg",
+      "usage": "Treats bacterial infections like respiratory infections and STDs.",
+      "dose": "500mg once daily for 3 days.",
+      "sideEffects": "Diarrhea, nausea, stomach pain.",
+      "warnings": "Complete the full course, avoid excessive sun exposure."
+    },
+    {
+      "id": 11,
+      "name": "Dolo 650",
+      "price": 55,
+      "description": "Pain reliever and fever reducer",
+      "image": "/images/dolo650.jpg",
+      "usage": "Used to relieve fever and mild to moderate pain.",
+      "dose": "650mg every 6 hours as needed.",
+      "sideEffects": "Liver damage (if overdosed), nausea.",
+      "warnings": "Do not exceed 4 doses in 24 hours."
+    },
+    {
+      "id": 12,
+      "name": "Ranitidine",
+      "price": 90,
+      "description": "Used for acid reflux and ulcers",
+      "image": "/images/ranitidine.jpg",
+      "usage": "Reduces stomach acid and treats ulcers.",
+      "dose": "150mg twice daily or 300mg at bedtime.",
+      "sideEffects": "Headache, dizziness, stomach pain.",
+      "warnings": "Not recommended for long-term use."
+    },
+    {
+      "id": 13,
+      "name": "Atorvastatin",
+      "price": 200,
+      "description": "Reduces cholesterol levels",
+      "image": "/images/atorvastatin.jpg",
+      "usage": "Lowers cholesterol and reduces heart disease risk.",
+      "dose": "10-20mg once daily in the evening.",
+      "sideEffects": "Muscle pain, liver issues, digestive problems.",
+      "warnings": "Avoid grapefruit, monitor liver enzymes."
+    },
+    {
+      "id": 14,
+      "name": "Montelukast",
+      "price": 160,
+      "description": "Used to treat asthma and allergies",
+      "image": "/images/montelukast.jpg",
+      "usage": "Prevents asthma and relieves allergy symptoms.",
+      "dose": "10mg once daily in the evening.",
+      "sideEffects": "Headache, stomach pain, mood changes.",
+      "warnings": "Not for sudden asthma attacks."
+    },
+    {
+      "id": 15,
+      "name": "Hydroxychloroquine",
+      "price": 300,
+      "description": "Used to treat malaria and arthritis",
+      "image": "/images/hydroxychloroquine.jpg",
+      "usage": "Treats malaria, lupus, and rheumatoid arthritis.",
+      "dose": "200-400mg once daily.",
+      "sideEffects": "Nausea, vision problems, heart issues.",
+      "warnings": "Regular eye exams recommended, avoid overdose."
+    }
+  ]
+  
