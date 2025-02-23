@@ -1,8 +1,9 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
-const DeliveryPage = () => {
+const DeliveryContent = () => {
   const searchParams = useSearchParams();
   const orderId = searchParams.get("orderId");
 
@@ -15,6 +16,14 @@ const DeliveryPage = () => {
       <h1 className="text-2xl font-bold mb-4">🚚 Live Delivery Tracking</h1>
       <p>Tracking Order ID: <strong>{orderId}</strong></p>
     </div>
+  );
+};
+
+const DeliveryPage = () => {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <DeliveryContent />
+    </Suspense>
   );
 };
 
