@@ -53,7 +53,7 @@ const Cart = ({ cart, setCart }) => {
         return;
       }
   
-      const orderResponse = await fetch("http://localhost:5000/api/create-order", {
+      const orderResponse = await fetch("https://medicine-delivery-app-9e0j.onrender.com/api/create-order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ amount: totalPrice }), // Amount in ₹
