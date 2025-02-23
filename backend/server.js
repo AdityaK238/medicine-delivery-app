@@ -21,10 +21,9 @@ const googleMapsApiKey = process.env.GOOGLE_MAPS_API_KEY;
 let orderLocations = {}; // Store order locations dynamically
 
 // 🔹 MongoDB Connection
-const mongoURI = "mongodb+srv://adikulkarni71:YD7jfURKr9DTSQPj@cluster0.gqhn3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
-  .connect(mongoURI, {
+  .connect(process.env.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
